@@ -11,24 +11,37 @@
 	<properties>
 		<jdk.version>1.7</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<baseUrl>http://atschx.com</baseUrl>
+		<baseUrl>http://nexus.jfxgraph.com</baseUrl>
+		<nexus.repository.url>http://nexus.jfxgraph.com/nexus/groups/public</nexus.repository.url>
 	</properties>
 
 	<organization>
 		<name>behalf</name>
 		<url>http://www.atschx.com</url>
 	</organization>
+
+
+	<repositories>
+		<repository>
+			<id>jfxgraph-nexus-repo</id>
+			<name>nexus repository</name>
+			<url>${nexus.repository.url}</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	
 	<distributionManagement>
 		<repository>
 			<id>releases</id>
 			<name>Nexus Release Repository</name>
-			<url>${baseUrl}:8081/nexus/content/repositories/releases/</url>
+			<url>${baseUrl}/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Nexus Snapshots Repository</name>
-			<url>${baseUrl}:8081/nexus/content/repositories/snapshots/</url>
+			<url>${baseUrl}/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
@@ -38,11 +51,11 @@
 			<id>Albert</id>
 			<name>孙长浩</name>
 			<roles>
-				<role>Developer</role>
+				<role>Master</role>
 			</roles>
-			<email>ichanghao.sun@gmail.com</email>
-			<organization>richeninfo</organization>
-			<organizationUrl>http://www.richeninfo.com</organizationUrl>
+			<email>atschx@gmail.com</email>
+			<organization>behalf</organization>
+			<organizationUrl>http://www.atschx.com</organizationUrl>
 			<timezone>+8</timezone>
 		</developer>
 	</developers>
@@ -52,7 +65,6 @@
 			<name>atschx</name>
 			<email>atschx@gmail.com</email>
 			<organization>behalf</organization>
-			<organizationUrl>http://www.richeninfo.com</organizationUrl>
 			<timezone>+8</timezone>
 		</contributor>
 	</contributors>
