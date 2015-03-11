@@ -12,25 +12,24 @@
 		<jdk.version>1.7</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<baseUrl>http://nexus.jfxgraph.com</baseUrl>
-		<nexus.repository.url>http://nexus.jfxgraph.com/nexus/groups/public</nexus.repository.url>
 	</properties>
-
-	<organization>
-		<name>behalf</name>
-		<url>http://www.atschx.com</url>
-	</organization>
-
 
 	<repositories>
 		<repository>
 			<id>jfxgraph-nexus-repo</id>
 			<name>nexus repository</name>
-			<url>${nexus.repository.url}</url>
+			<url>http://nexus.jfxgraph.com/nexus/content/groups/public</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
 	</repositories>
+	
+	<organization>
+		<name>behalf</name>
+		<url>http://www.atschx.com</url>
+	</organization>
+
 	
 	<distributionManagement>
 		<repository>
@@ -44,7 +43,6 @@
 			<url>${baseUrl}/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	
 
 	<developers>
 		<developer>

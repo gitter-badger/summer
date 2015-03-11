@@ -11,6 +11,17 @@
 	<name>Summer::Parent</name>
 	<description>summer平台公共配置</description>
 
+	<repositories>
+		<repository>
+			<id>jfxgraph-nexus-repo</id>
+			<name>nexus repository</name>
+			<url>http://nexus.jfxgraph.com/nexus/content/groups/public</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	
 	<properties>
 		<!-- 主要依赖库的版本定义 -->
 		<summer.version>0.0.1-SNAPSHOT</summer.version>
@@ -59,7 +70,7 @@
 		<maven>3.0.0</maven>
 	</prerequisites>
 
-	<!-- 预定义依赖项的version,scope与exclusions,子项目中只需定义groupId 与  artifactId 即可 -->
+	<!-- 预定义依赖项的version,scope与exclusions,子项目中只需定义groupId 与 artifactId 即可 -->
 	<dependencyManagement>
 		<dependencies>
 			<!-- Summer MODULES begin -->
@@ -70,8 +81,8 @@
 				<scope>compile</scope>
 			</dependency>
 			<!-- Summer MODULES end -->
-			
-			<!-- spring-->
+
+			<!-- spring -->
 			<!-- 纯粹为了exclude commons-loging -->
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -84,7 +95,7 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			
+
 
 			<!-- PERSISTENCE begin -->
 			<!-- hibernate -->
@@ -135,7 +146,7 @@
 				<artifactId>mybatis-spring</artifactId>
 				<version>1.2.2</version>
 			</dependency>
-		
+
 			<!-- connection pool -->
 			<dependency>
 				<groupId>org.apache.tomcat</groupId>
@@ -152,7 +163,7 @@
 				<artifactId>spring-webmvc</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
-			
+
 			<!-- sitemesh -->
 			<dependency>
 				<groupId>opensymphony</groupId>
@@ -162,7 +173,7 @@
 			</dependency>
 
 			<!-- j2ee web spec -->
-			<!-- update to servlet 3.0 for spring 4.0 MockHttpServletRequest  -->
+			<!-- update to servlet 3.0 for spring 4.0 MockHttpServletRequest -->
 			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
@@ -538,7 +549,7 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>fluent-hc</artifactId>
@@ -550,7 +561,7 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>http-core</artifactId>
@@ -592,7 +603,7 @@
 				<version>${junit.version}</version>
 				<scope>test</scope>
 			</dependency>
-			
+
 			<!-- assertj -->
 			<dependency>
 				<groupId>org.assertj</groupId>
@@ -600,7 +611,7 @@
 				<version>${assertj.version}</version>
 				<scope>test</scope>
 			</dependency>
-			
+
 			<!-- mockito -->
 			<dependency>
 				<groupId>org.mockito</groupId>
@@ -759,7 +770,7 @@
 			<!-- TEST end -->
 		</dependencies>
 	</dependencyManagement>
-		<!-- 插件配置 -->
+	<!-- 插件配置 -->
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -901,7 +912,7 @@
 					<artifactId>jetty-maven-plugin</artifactId>
 					<version>${jetty.version}</version>
 				</plugin>
-				<!-- tomcat插件  -->
+				<!-- tomcat插件 -->
 				<plugin>
 					<groupId>org.apache.tomcat.maven</groupId>
 					<artifactId>tomcat7-maven-plugin</artifactId>
@@ -943,5 +954,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
 </project>
