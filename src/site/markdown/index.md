@@ -3,7 +3,7 @@
 沙漠（summer），充满无限可能
  
 ##掠影
-![richeninfo](images/summer.jpg)
+![summer](images/summer.jpg)
 
 >##品牌解读
 

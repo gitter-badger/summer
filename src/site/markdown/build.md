@@ -3,7 +3,7 @@
 
 向Mac下优秀的markdown编辑器mou致敬
 
-##UniMax  Client™ 有哪些模块
+##Summer™ 有哪些模块
 
 * 方便的`导入导出`功能
     *  直接把一个markdown的文本文件拖放到当前这个页面就可以了
@@ -38,8 +38,8 @@
 ##关于作者
 
 ```javascript
-  var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
+  var atschx = {
+    nickName  : "Albert",
+    site : "http://atschx.com"
   }
 ```
