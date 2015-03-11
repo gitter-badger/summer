@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.richeninfo.summer</groupId>
+		<groupId>com.atschx.summer</groupId>
 		<artifactId>summer</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
@@ -57,13 +57,13 @@
 	<dependencies>
 		<!-- summer -->
 		<dependency>
-			<groupId>com.richeninfo.summer</groupId>
+			<groupId>com.atschx.summer</groupId>
 			<artifactId>summer-core</artifactId>
 			<version>${summer.version}</version>
 		</dependency>
 		<!-- summer -->
 		<dependency>
-			<groupId>com.richeninfo.summer</groupId>
+			<groupId>com.atschx.summer</groupId>
 			<artifactId>summer-commons</artifactId>
 			<version>${summer.version}</version>
 		</dependency>
@@ -104,13 +104,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
-
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>${jdbc.driver.oracle.groupId}</groupId>
 			<artifactId>${jdbc.driver.oracle.artifactId}</artifactId>
 			<version>${jdbc.driver.oracle.version}</version>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
 		
 		<!-- jdbc driver -->
 		<dependency>
