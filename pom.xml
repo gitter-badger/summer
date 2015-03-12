@@ -253,6 +253,20 @@
 				</plugin>
 				<!-- Maven site Project-Report插件配置 End -->
 
+				<!-- <plugin>
+					<groupId>org.codehaus.sonar</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.5.1</version>
+					<executions>
+						<execution>
+							<id>sonar</id>
+							<phase>site</phase>
+							<goals>
+								<goal>sonar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin> -->
 			</plugins>
 		</pluginManagement>
 

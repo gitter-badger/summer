@@ -3,18 +3,15 @@
 	name="${project.name}">
 
 	<bannerLeft>
-		<!-- <name>${project.name}</name>
-		<src>images/epichust-header.png</src>
-		<href>http://www.epichust.com/</href> -->
 		<name>${project.name}</name>
 		<src>http://maven.apache.org/images/apache-maven-project.png</src>
 		<href>http://maven.apache.org/</href> 
 	</bannerLeft>
 
 	<bannerRight>
-		<name>上海锐至信息技术有限公司</name>
-		<src>images/logo.png</src>
-		<href>http://www.richeninfo.com</href>
+		<name>atschx.com</name>
+		<src>images/cta.png</src>
+		<href>http://atschx.com</href>
 	</bannerRight>
 
 	<version position="right" />
