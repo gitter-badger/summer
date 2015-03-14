@@ -279,5 +279,6 @@
 		<module>summer-core</module>
 		<!-- <module>summer-web</module> -->
 		<module>summer-quickstart</module>
+		<module>summer-websocket</module>
 	</modules>
 </project>
