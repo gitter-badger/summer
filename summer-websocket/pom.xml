@@ -15,7 +15,7 @@
 
 	<dependencies>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>${javaee.api.version}</version>
@@ -27,7 +27,7 @@
 			<artifactId>tomcat-catalina</artifactId>
 			<version>8.0.20</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>

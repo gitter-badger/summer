@@ -7,5 +7,5 @@ Java API for WebSocket(JSR 356)
 
 参考资源
 
-
-https://java.net/projects/websocket-spec/pages/WebSocketAPIs
+RFC6455：http://tools.ietf.org/html/rfc6455
+project：https://java.net/projects/websocket-spec/pages/WebSocketAPIs
