@@ -5,6 +5,10 @@
 	version="2.5">
 	<display-name>summer-websocket</display-name>
 	
+	<welcome-file-list>
+	
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
 	
 
 
