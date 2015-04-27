@@ -1,11 +1,11 @@
 package com.atschx.summer.websocket;
 
+import javax.servlet.annotation.WebServlet;
 import javax.websocket.OnMessage;
 import javax.websocket.server.ServerEndpoint;
 
-/**
- * 可以再简单些吗？
- */
+
+@WebServlet
 @ServerEndpoint("/echo")
 public class EchoServer {
 	@OnMessage

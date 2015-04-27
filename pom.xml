@@ -280,5 +280,6 @@
 		<!-- <module>summer-web</module> -->
 		<module>summer-quickstart</module>
 		<module>summer-websocket</module>
+		<module>summer-tomcat7-websocket</module>
 	</modules>
 </project>
