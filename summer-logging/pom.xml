@@ -23,5 +23,10 @@
 			<optional>true</optional>
 		</dependency>
 		<!-- LOGGING end -->
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
 	</dependencies>
 </project>

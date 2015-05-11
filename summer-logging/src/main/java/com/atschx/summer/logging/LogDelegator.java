@@ -9,12 +9,6 @@ package com.atschx.summer.logging;
  */
 public interface LogDelegator
 {
-	/**
-	 * 日志输出开关.
-	 * 
-	 * @return Albert 2013-4-7 下午3:04:46
-	 */
-	public boolean isLoggingEnabled();
 
 	/**
 	 * 捕获异常之后的默认日志处理.

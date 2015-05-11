@@ -1,15 +1,14 @@
 package com.atschx.summer.logging;
 
 /**
- * 公共logger,统一使用规范.
- * 
- * @author Albert
- *
+ * SummerLogger.
  */
-public class SummerLogger {
+public final class SummerLogger {
 
-	public static void main(String[] args) {
+	private static LogDelegator delegator = new Slf4jLogDelegator();
 
+	public static void debug(String msg) {
+		delegator.debug(msg);
 	}
 
 }
