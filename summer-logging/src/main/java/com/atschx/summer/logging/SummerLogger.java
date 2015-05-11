@@ -10,5 +10,9 @@ public final class SummerLogger {
 	public static void debug(String msg) {
 		delegator.debug(msg);
 	}
+	
+	public static void error(String msg,Throwable t) {
+		delegator.error(msg,t);
+	}
 
 }

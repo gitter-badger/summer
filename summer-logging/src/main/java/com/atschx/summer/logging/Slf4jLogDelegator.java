@@ -12,8 +12,10 @@ import org.slf4j.LoggerFactory;
  * @version Slf4jLogDelegator.java, v 0.1 2013-4-7 下午1:23:36 Albert .
  */
 public class Slf4jLogDelegator implements LogDelegator {
+
+
 	/**
-	 * mestar平台内部控制用于开发调试时使用的logger.
+	 * 全局logger.
 	 */
 	private final Logger summerLogger = LoggerFactory
 			.getLogger("summer.logger");
