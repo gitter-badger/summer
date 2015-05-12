@@ -9,6 +9,18 @@
 	<artifactId>summer-tomcat7-websocket</artifactId>
 	<packaging>war</packaging>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.atschx.summer</groupId>
+				<artifactId>summer-parent</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
@@ -18,4 +30,17 @@
 		</dependency>
 	</dependencies>
 	<name>Summer::Tomcat7::Websocket</name>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<!-- 无web.xml -->
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

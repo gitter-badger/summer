@@ -172,8 +172,7 @@
 									<aggregate>true</aggregate>
 									<instrumentation>
 										<includes>
-											<include>com/behalf/**/service/*.class</include>
-											<include>com/richeninfo/**/repostiory/*.class</include>
+											<include>com/atschx/**/service/*.class</include>
 										</includes>
 									</instrumentation>
 								</configuration>
@@ -271,7 +270,7 @@
 		</pluginManagement>
 
 	</build>
-
+	
 	<modules>
 		<module>summer-parent</module>
 		<module>summer-logging</module>
