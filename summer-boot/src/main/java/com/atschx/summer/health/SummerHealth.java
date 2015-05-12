@@ -9,6 +9,8 @@ public class SummerHealth implements HealthIndicator {
 
 	@Override
 	public Health health() {
+		
+		
 		return null;
 	}
 

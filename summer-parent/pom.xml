@@ -833,6 +833,8 @@
 					<version>2.4</version>
 					<configuration>
 						<warName>${project.artifactId}</warName>
+					<!-- 无web.xml -->
+					<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 

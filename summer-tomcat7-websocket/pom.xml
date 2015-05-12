@@ -17,4 +17,5 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	<name>Summer::Tomcat7::Websocket</name>
 </project>
