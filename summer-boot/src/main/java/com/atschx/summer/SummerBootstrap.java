@@ -1,4 +1,4 @@
-package com.atschx.summer.boot;
+package com.atschx.summer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

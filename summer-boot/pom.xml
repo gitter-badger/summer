@@ -60,6 +60,11 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 	</dependencies>
 
 	<!-- Package as an executable jar -->
@@ -69,7 +74,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.atschx.summer.boot.SummerBootstrap</mainClass>
+					<mainClass>com.atschx.summer.SummerBootstrap</mainClass>
 				</configuration>
 				<executions>
 					<execution>
@@ -80,5 +85,11 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
 	</build>
 </project>
