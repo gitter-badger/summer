@@ -17,7 +17,6 @@
 	<version position="right" />
 	<publishDate position="right" />
 
-
 	<skin>
 		<groupId>org.apache.maven.skins</groupId>
 		<artifactId>maven-fluido-skin</artifactId>
@@ -43,7 +42,7 @@
 
 		<menu name="OverView">
 			<item name="Introduction" href="index.html" title="Introduction" />
-			<item name="Usage" href="usage.html"/>
+			<item name="Usage" href="build.html"/>
 			<item name="Specifications" href="spec/code-specifications.html" title="Specifications" />
 			<item name="FAQ" href="faq.html" />
 		</menu>
