@@ -7,7 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../summer-parent/pom.xml</relativePath>
 	</parent>
-	<name>Summer::Commons</name>
+	<name>summer::commons</name>
 	<artifactId>summer-commons</artifactId>
 
 	<dependencies>

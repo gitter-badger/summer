@@ -29,7 +29,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-	<name>Summer::Tomcat7::Websocket</name>
+	<name>summer::tomcat7::websocket</name>
 
 	<build>
 		<plugins>

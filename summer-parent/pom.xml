@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>summer-parent</artifactId>
 	<packaging>pom</packaging>
-	<name>Summer::Parent</name>
+	<name>summer::parent</name>
 	<description>summer平台公共配置</description>
 
 	<repositories>

@@ -38,7 +38,7 @@
 		
 	</dependencies>
 
-	<name>Summer::Websocket</name>
+	<name>summer::websocket</name>
 	<description>Java EE 7 based Websocket</description>
 
 	<build>

@@ -6,7 +6,7 @@
 		<artifactId>summer</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<name>Summer::Example::QuickStart</name>
+	<name>summer::example::quickstart</name>
 	<artifactId>summer-quickstart</artifactId>
 	<packaging>war</packaging>
 

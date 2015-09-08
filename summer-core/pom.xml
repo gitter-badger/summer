@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>summer-core</artifactId>
 	<description>平台核心包</description>
-	<name>Summer::Core</name>
+	<name>summer::core</name>
 
 	<dependencies>
 		<!-- PERSISTENCE begin -->
